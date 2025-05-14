@@ -29,7 +29,7 @@
     "@actions/github": "^6.0.0",
     "@github/dependency-submission-toolkit": "^2.0.5",
     "fs": "^0.0.1-security",
-    "yaml": "^2.2.2"
+    "yaml": "^2.7.1"
   },
   "devDependencies": {
     "@types/glob": "^8.0.1",
