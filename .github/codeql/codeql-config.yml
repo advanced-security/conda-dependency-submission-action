@@ -3,3 +3,4 @@ name: "javascript-action CodeQL config"
 paths-ignore: 
   - node_modules
   - dist
+  - tests
