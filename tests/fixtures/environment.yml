@@ -1,0 +1,12 @@
+name: test-yml
+channels:
+- pytorch
+dependencies:
+- python=3.9
+- pytorch=2.0
+- torchvision
+- cudatoolkit=12.1
+- pip
+- pip:
+  - requests==2.32.3
+  - numpy==2.0.1
