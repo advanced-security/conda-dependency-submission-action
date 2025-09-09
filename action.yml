@@ -12,9 +12,13 @@ inputs:
   filePattern:
     description: 'The file name pattern for environment files to upload'
     required: false
-    default: 'environment.yaml'
+    default: 'environment.{yaml,yml}'
+  treatAsPython:
+    description: 'Treat all dependencies discovered in Conda manifests as Python (PyPI) packages when submitting to the Dependency Submission API.'
+    required: false
+    default: 'false'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'upload-cloud'
