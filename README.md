@@ -33,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Conda dependency scanning
-        uses: jhutchings1/conda-dependency-submission-action@v0.0.3
+        uses: advanced-security/conda-dependency-submission-action@v0.0.3
         with:
           treatAsPython: true
 ```
