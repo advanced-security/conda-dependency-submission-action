@@ -7,6 +7,9 @@ on:
       - main
       - 'releases/*'
 
+permissions:
+  contents: read
+
 jobs:
   # test action works running from the graph
   test:
@@ -14,6 +17,6 @@ jobs:
     steps:
     - uses: actions/checkout@v6
     - run: |
-        npm install
+        npm ci
         npm run test
         
